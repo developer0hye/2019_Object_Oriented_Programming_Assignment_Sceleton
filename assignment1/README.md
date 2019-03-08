@@ -40,3 +40,55 @@ Print the following rules that he must keep:
 -	Must contain at least 1 special character.
 
 If he keeps all rules for strong password, print “Thank you for signing up!”.
+
+### Sample Input 0
+
+```
+a
+```
+
+### Sample Output 0
+
+```
+Must contain at least 6 characters.
+Must contain at least 1 digit.
+Must contain at least 1 uppercase English character.
+Must contain at least 1 special character.
+```
+
+
+### Sample Input 1
+
+```
+KingMessi9
+```
+
+### Sample Output 1
+
+```
+Must contain at least 1 special character.
+```
+
+### Sample Input 2
+
+```
+KingMessi9!
+```
+
+### Sample Output 2
+
+```
+Thank you for signing up!
+```
+
+### Sample Input 3
+
+```
+4Resnal
+```
+
+### Sample Output 3
+
+```
+Must contain at least 1 special character.
+```
